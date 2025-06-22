@@ -3,11 +3,12 @@ This project simulates the interest waterfall and compliance mechanics of a simp
 
 ## Features
 
-- Tranche-level interest allocation based on payment priority
-- Overcollateralization (OC) test logic with configurable threshold
-- Two scenarios modeled:
-  - Base Case: OC test passes
-  - Stress Case: OC test fails due to reduced collateral
-- Visualization of results using `matplotlib`
-- Human-readable and well-documented Python implementation
-- Includes structured project analysis in LaTeX (with optional compiled PDF)
+- Tranche-level interest allocation with payment priority
+- OC test logic with threshold control
+- Two modeled scenarios:
+  - Base Case (OC test passes)
+  - Stress Case (OC test fails due to reduced collateral)
+- Excel-based cash flow and compliance logic
+- Python-based automation and visualization using `pandas` and `matplotlib`
+- LaTeX write-up and optional compiled PDF analysis
+
